@@ -1,0 +1,43 @@
+.drangus{
+    color: white;
+    opacity: 0.9;
+}
+
+.top-name {
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.jumbo{
+    background: url(assets/35110946096_7ea0ff5bfe_k.jpg);
+    background-size: cover;              /* <------ */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.linkedin-link{
+    color: black;
+}
+
+.overlay-first{
+    position: absolute; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.about {
+    background-color: #F4F4F4;
+}
+
+.about-title{
+    text-align: center;
+    color: #C0B283;
+}
