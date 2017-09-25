@@ -11,6 +11,7 @@ div {
     position: absolute;
     bottom: 0;
     display: none;
+    margin-left: 10px;
 }
 
 .jumbo{
