@@ -46,11 +46,18 @@ div {
 
 .about-title{
     text-align: center;
+}
+
+.about-header{
     color: #C0B283;
 }
 
 .about-blurb{
     text-align: center;
+}
+
+.about-column{
+    margin-left: 5px;
 }
 
 .profile-pic{
@@ -60,14 +67,22 @@ div {
     height: 250px;
 }
 
-.profile{
-    margin-left: 5px;
+.cormac-profile-row{
+    margin-bottom: 25px;
 }
 
-.background{
-    margin-left: 5px;
+.body-text{
+    color: #373737;
 }
 
 .skills{
-    margin-left: 5px;
+    background-color: #C0B283;
+}
+
+.skills-title{
+    text-align: center;
+}
+
+.skills-header{
+    color: #F4F4F4;
 }
