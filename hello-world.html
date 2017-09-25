@@ -12,16 +12,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>-->
     
     <!--FontAwesome-->
+    <script src="https://use.fontawesome.com/83b3611629.js"></script>
     
-<!-- Start: injected by Adguard -->
-<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?sb=1&amp;ts=1505883591.384486&amp;js=1&amp;domain=vfs-gce-usw-121-3.c9.io&amp;css=1&amp;generic=1" type="text/javascript" crossorigin="anonymous"></script>
-<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Assistant?ts=1505794289.596706" type="text/javascript" crossorigin="anonymous"></script>
-<!-- End: injected by Adguard -->
-<script src="https://use.fontawesome.com/83b3611629.js"></script>
-    
-    <!--JavaScript File for Effects-->
+    <!--jQuery-->
   	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        
+    <!--ScrollMagic-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    
+    <!--External JavaScript File-->
+    <script src='effects.js'></script>
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -29,37 +31,49 @@
   </head>
   
   <body>
-    <script src='effects.js'></script>
-    <div class="jumbotron jumbo">
-  	  <div class="overlay overlay-first">
-  	    <div class="container top-name">
-      	  <h1 class="display-3 drangus">Cormac Mollitor</h1>
-      	  <p class="lead drangus">3rd Year Computer Engineering Student<br>Aspiring Web Developer<br>Avid Explorer</p><!--Think of a better lead-->
-      	  <!--<a class="drangus" href="https://www.linkedin.com/in/cormac-mollitor/">
-      	    <span class="icon icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> www.linkedin.com/in/cormac-mollitor</span>
-    	    </a>-->
-    	 </div>
+      <div class="jumbotron jumbo">
+    	  <div class="overlay overlay-first">
+    	    <div class="container top-name">
+        	  <h1 class="display-3 drangus">Cormac Mollitor</h1>
+        	  <p class="lead drangus">3rd Year Computer Engineering Student<br>Aspiring Web Developer<br>Avid Explorer</p><!--Think of a better lead-->
+        	  <!--<a class="drangus" href="https://www.linkedin.com/in/cormac-mollitor/">
+        	    <span class="icon icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> www.linkedin.com/in/cormac-mollitor</span>
+      	    </a>-->
+      	 </div>
+    	  </div>
   	  </div>
-	  </div>
-	  <div class="about">
-  	  <div class="row">
-  	    <div class="col-xl-12">
-  	      <h2 class="about-title">About</h2>
-  	    </div>
-  	  </div>
-  	  <div class="row">
-  	    <div class="col-xl-4">
-  	      <h2>Work Experience</h2>
-  	    </div>
-  	    <div class="col-xl-4">
-  	      <h2>Projects</h2>
-  	    </div>
-  	    <div class="col-xl-4">
-  	      <h2>Skills</h2>
-  	      <p>what does this do? Italian black black black dangus</p>
-  	    </div>
-  	  </div>
-	  </div>
+    <div class="about">
+      <div class="row">
+        <div class="col-xl-12">
+          <br><br>
+           <h2 class="about-title">About Me</h2>
+           <hr width="15%">
+           <p class="about-blurb">"Success is not a result of spontaneous combustion. You must set yourself on fire."</p>
+           <p class="about-blurb">-Arnold H. Glasgow</p>
+         </div>
+  	   </div>
+      <div class="row">
+        <img src="assets/IMG_2487.JPG" class="rounded-circle profile-pic">
+      </div>
+      <div class="row">
+        <div class="col-xl-3 col-xs-3"></div> <!--Bootstrap 4.0 Beta 2.0 will introduce offset again-->
+        <div class="col-xl-2 col-xs-2 background">
+         <h4>Background</h4>
+         <p><b>Hometown:</b> Rockville, MD</p>
+         <p><b>Education:</b> </p>
+        </div>
+        <div class="col-xl-2 col-xs-2 skills">
+         <h3>Skills</h3>
+        </div>
+        <div class="col-xl-2 col-xs-2 profile">
+         <h3>Profile</h3>
+         <p>I am a 3rd year Computer Engineering student at University of British Columbia with a strong interest machine learning and web development. 
+         I am an avid problem-solver and love diving head-first into code to fix bugs and develop enhancements. Because I learn best when I am outside of my comfort zone, 
+         I enjoy tackling difficult problems and finding my own answers before asking others for help. With that being said, I am also an excellent team player and thrive off collaboration.
+         I am currently working on learning analytics R&D for <a href="https://alchemy.elearning.ubc.ca/">Alchemy</a>, a prototype teaching tool, for the UBC Chemistry Department. </p>
+        </div>
+      </div>
+    </div>
 	  <div class="row">
 	    <div class="col-xl-12">
 	    </div>

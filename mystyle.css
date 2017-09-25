@@ -1,3 +1,7 @@
+div {
+    padding-top: 0px;
+}
+
 .drangus{
     color: white;
     opacity: 0.9;
@@ -15,6 +19,8 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    clear: none;
+    margin-bottom: 0px;
 }
 
 .linkedin-link{
@@ -31,6 +37,7 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.7); /* Black background with opacity */
     cursor: pointer; /* Add a pointer on hover */
+    margin-bottom: 0px;
 }
 
 .about {
@@ -40,4 +47,27 @@
 .about-title{
     text-align: center;
     color: #C0B283;
+}
+
+.about-blurb{
+    text-align: center;
+}
+
+.profile-pic{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 250px;
+}
+
+.profile{
+    margin-left: 5px;
+}
+
+.background{
+    margin-left: 5px;
+}
+
+.skills{
+    margin-left: 5px;
 }
