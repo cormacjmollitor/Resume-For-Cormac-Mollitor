@@ -53,7 +53,7 @@ div {
     color: #C0B283;
 }
 
-.about-blurb{
+.blurb{
     text-align: center;
 }
 
@@ -90,4 +90,11 @@ div {
 
 #fillgauge{
     margin-top: 20px;
+    margin-left: 10px;
+}
+
+.proficiency-level{
+    position: absolute;
+    bottom: 80;
+    margin-left: 20px;
 }

@@ -52,8 +52,8 @@
           <br><br>
            <h1 class="about-title about-header">About Me</h1>
            <hr width="15%">
-           <p class="about-blurb">"Success is not a result of spontaneous combustion. You must set yourself on fire."</p>
-           <p class="about-blurb">-Arnold H. Glasgow</p>
+           <p class="blurb">"Success is not a result of spontaneous combustion. You must set yourself on fire."</p>
+           <p class="blurb">-Arnold H. Glasgow</p>
          </div>
   	   </div>
       <div class="row">
@@ -109,37 +109,70 @@
     </div>
     
     <div class="skills">
-      <svg id="fillgauge" width="19%" height="200"></svg>
-      <script language="JavaScript">
-          var config1 = liquidFillGaugeDefaultSettings();
-          config1.circleColor = "#C0B283";
-          config1.textColor = "#F4F4F4";
-          config1.waveTextColor = "#F4F4F4";
-          config1.waveColor = "#C0B283";
-          config1.circleThickness = 0.2;
-          config1.textVertPosition = 0.2;
-          config1.waveAnimateTime = 1000;
-          var gauge2= loadLiquidFillGauge("fillgauge", 28, config1);
-      </script>
   	  <div class="row">
   	    <div class="col-xl-12">
-  	        <br><br>
-  	        <h1 class="skills-title skills-header">Skills</h1>
-  	        <hr width="75%">
+	        <br><br>
+	        <h1 class="skills-title skills-header">Skills</h1>
+	        <hr width="15%" style="margin-bottom: 25px">
+	        <p class="blurb" style="margin-bottom: 25px">I am a quick learner who loves learning new technologies.<br>
+	        Hover over a skill to view my proficiency.</p>
+	        <hr width="75%">
   	    </div>
   	  </div>
   	  <div class="row">
-  	      <div class="col-xl-2"></div>
-  	      <div class="col-xl-3 skills-header">
-  	          <h3>Web Frameworks</h3>
-  	      </div>
-  	      <div class="col-xl-2 skills-header">
-  	          <h3>Languages</h3>
-  	      </div>
-  	      <div class="col-xl-4 skills-header"><!--Might have to change this for symmetry reasons-->
-  	          <h3>Development Technologies</h3>
-  	      </div>
+        <div class="col-xl-2">
+          <br><br><br><br><br><br><br><br>
+          <h5 class="proficiency-level">Proficiency Level</h5>
+          <svg id="fillgauge" width="80%" height="200"></svg>
+          <script language="JavaScript">
+              var config1 = liquidFillGaugeDefaultSettings();
+              config1.circleColor = "#C0B283";
+              config1.textColor = "#F4F4F4";
+              config1.waveTextColor = "#F4F4F4";
+              config1.waveColor = "#C0B283";
+              config1.circleThickness = 0.2;
+              config1.textVertPosition = 0.2;
+              config1.waveAnimateTime = 1000;
+              var gauge2= loadLiquidFillGauge("fillgauge", 0, config1);
+          </script>
+        </div>
+        <div class="col-xl-3">
+            <h3 class="skills-header">Web Frameworks</h3>
+            <ul>
+             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby on Rails</li>
+             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">AngularJS</li>
+             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">Bootstrap</li>
+            </ul>
+        </div>
+        <div class="col-xl-2">
+            <h3 class="skills-header">Languages</h3>
+            <ul>
+             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Java</li>
+             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby</li>
+             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">C/C++</li>
+             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">JavaScript</li>
+             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">HTML</li>
+             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">CSS</li>
+            </ul>
+        </div>
+        <div class="col-xl-4"><!--Might have to change this for symmetry reasons-->
+            <h3 class="skills-header">Other Technologies</h3>
+            <ul>
+             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Git</li>
+             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">jQuery</li>
+             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Docker</li>
+             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">xAPI</li>
+             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Vis.js</li>
+             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Unix</li>
+             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Windows</li>
+             <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">D3.js</li>
+            </ul>
+        </div>
   	  </div>
+    </div>
+    
+    <div class="work-experience">
+      
     </div>
   </body>
 </html>
