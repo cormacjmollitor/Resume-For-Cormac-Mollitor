@@ -98,3 +98,15 @@ div {
     bottom: 80;
     margin-left: 20px;
 }
+
+.work-experience{
+    background-color: #F4F4F4;
+}
+
+.work-experience-title{
+    text-align: center;
+}
+
+.work-experience-header{
+    color: #C0B283;
+}
