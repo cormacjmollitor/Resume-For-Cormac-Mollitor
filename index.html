@@ -5,12 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>-->
-    
     <!--FontAwesome-->
     <script src="https://use.fontawesome.com/83b3611629.js"></script>
     
@@ -20,10 +14,6 @@
     
     <!--d3js-->
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-        
-    <!--ScrollMagic-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     
     <!--External JavaScript File-->
     <script src='effects.js' language="JavaScript"></script>
@@ -35,15 +25,12 @@
   
   <body>
     <div class="jumbotron jumbo">
-	  <div class="overlay overlay-first">
-	    <div class="container top-name">
-    	  <h1 class="display-3 drangus">Cormac Mollitor</h1>
-    	  <p class="lead drangus">3rd Year Computer Engineering Student<br>Aspiring Web Developer<br>Avid Explorer</p><!--Think of a better lead-->
-    	  <!--<a class="drangus" href="https://www.linkedin.com/in/cormac-mollitor/">
-    	    <span class="icon icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> www.linkedin.com/in/cormac-mollitor</span>
-  	    </a>-->
-  	     </div>
-	  </div>
+  	  <div class="overlay overlay-first">
+  	    <div class="container top-name">
+      	  <h1 class="display-3 drangus">Cormac Mollitor</h1>
+      	  <p class="lead drangus">3rd Year Computer Engineering Student<br>Aspiring Web Developer<br>Avid Explorer</p><!--Think of a better lead-->
+        </div>
+  	  </div>
     </div>
     
     <div class="about">
@@ -75,6 +62,8 @@
            <li>Hiking</li>
            <li>Bouldering</li>
            <li>Top Rope Climbing</li>
+           <li>Programming</li>
+           <li>Table Tennis</li>
            <li>Ice Hockey</li>
            <li>Weightlifting</li>
            <li>Cooking</li>
@@ -117,7 +106,6 @@
 	        <hr width="15%" style="margin-bottom: 25px">
 	        <p class="blurb" style="margin-bottom: 25px">I am a quick learner who loves learning new technologies.<br>
 	        Hover over a skill to view my proficiency.</p>
-	        <hr width="75%">
   	    </div>
   	  </div>
   	  <div class="row">
@@ -137,135 +125,212 @@
               var gauge2= loadLiquidFillGauge("fillgauge", 0, config1);
           </script>
         </div>
-        <div class="col-xl-3">
-            <h3 class="skills-header">Web Frameworks</h3>
-            <ul>
-             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby on Rails</li>
-             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">AngularJS</li>
-             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">Bootstrap</li>
-            </ul>
-        </div>
-        <div class="col-xl-2">
-            <h3 class="skills-header">Languages</h3>
-            <ul>
-             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Java</li>
-             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby</li>
-             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">C/C++</li>
-             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">JavaScript</li>
-             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">HTML</li>
-             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">CSS</li>
-             <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">x86</li>
-             <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">ARMv7</li>
-            </ul>
-        </div>
-        <div class="col-xl-4"><!--Might have to change this for symmetry reasons-->
-            <h3 class="skills-header">Other Technologies</h3>
-            <ul>
-             <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Git</li>
-             <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">jQuery</li>
-             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Docker</li>
-             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">xAPI</li>
-             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Vis.js</li>
-             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Unix</li>
-             <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Windows</li>
-             <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">D3.js</li>
-            </ul>
+        <div class="col-xl-8">
+          <hr width="100%">
+          <div class="row">
+          <div class="col-xl-4">
+              <h3 class="skills-header">Web Frameworks</h3>
+              <ul>
+               <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby on Rails</li>
+               <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">AngularJS</li>
+               <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">Bootstrap</li>
+              </ul>
+          </div>
+          <div class="col-xl-3">
+              <h3 class="skills-header">Languages</h3>
+              <ul>
+               <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Java</li>
+               <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby</li>
+               <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">C/C++</li>
+               <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">JavaScript</li>
+               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">HTML</li>
+               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">CSS</li>
+               <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">x86</li>
+               <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">ARMv7</li>
+              </ul>
+          </div>
+          <div class="col-xl-5"><!--Might have to change this for symmetry reasons-->
+              <h3 class="skills-header">Other Technologies</h3>
+              <ul>
+               <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Git</li>
+               <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">jQuery</li>
+               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Docker</li>
+               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">xAPI</li>
+               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Vis.js</li>
+               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Unix</li>
+               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">Windows</li>
+               <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">D3.js</li>
+              </ul>
+          </div>
+          </div>
         </div>
   	  </div>
     </div>
     
     <div class="work-experience">
-      <div class="row">
-        <div class="col-xl-12">
+        <div class="row">
+          <div class="col-xl-2"></div>
+          <div class="col-xl-8">
+            <div class="row">
+              <div class="col-xl-12">
+                <br><br>
+                <h1 class="work-experience-title work-experience-header">Work Experience</h1>
+                <hr width="35%">
+                <p class="blurb">I currently work as a Software Developer Co-Op for the UBC Department of Chemistry.</p>
+                <p class="blurb">I will be available for new work starting on May 1, 2018</p>
+              </div>
+            </div>
+            <hr width="100%">
+            <div class="row">
+              <div class="col-xl-6 job-name">
+                <h6 class="work-name"><b>UBC Department of Chemistry</b></h6>
+                <p class="duration"><i>May, 2017 - Present</i></p>
+              </div>
+              <div class="col-xl-6 job-title">
+                <h6>Software Developer Co-op</h6>
+                <p></p><!--PUT DESCRIPTION HERE WITH LINES SEPERATED USING <br>-->
+              </div>
+            </div>
           <br><br>
-          <h1 class="work-experience-title work-experience-header">Work Experience</h1>
-          <hr width="30%">
-          <p class="blurb">I currently work as a Software Developer Co-Op for the UBC Department of Chemistry.</p>
-          <p class="blurb">I will be available for new work starting on May 1, 2018</p>
-          <hr width="70%"><!--Consider placing everything in a container so that the spacing works out--><!--Also figure out proper spacing so these have equal ends over the main sections-->
+          <div class="row">
+            <div class="col-xl-6 job-name">
+              <h6 class="work-name"><b>UBC JumpStart</b></h6>
+              <p class="duration"><i>August, 2016 - September, 2016</i></p>
+            </div>
+            <div class="col-xl-6 job-title">
+              <h6>Orientation Leader</h6>
+              <ul>
+                <li>Lead a group of 23 incoming first year international students in a welcoming and friendly manner</li>
+                <li>Gave students advice and resources needed to maintain a GPA above 60% and fostered community</li>
+              </ul>
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-xl-6 job-name">
+              <h6 class="work-name"><b>RainKing Solutions</b></h6>
+              <p class="duration"><i>March, 2015 - August, 2015</i></p>
+            </div>
+            <div class="col-xl-6 job-title">
+              <h6>Research Intern</h6>
+              <ul>
+                <li>Listened for names in voicemail messages and input their LinkedIn information quickly and accurately into a spreadsheet</li>
+                <li>Ranked as the 3rd fastest intern out of 30+ with an average rate of 25 entries per hour</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xl-2"></div>
-        <div class="col-xl-3">
-          <h6 class="work-name"><b>UBC Department of Chemistry</b></h6>
-          <p class="duration">May, 2017 - Present</p>
-        </div>
-        <div class="col-xl-4">
-          <h6>Software Developer Co-op</h6>
-          <p></p><!--PUT DESCRIPTION HERE WITH LINES SEPERATED USING <br>-->
-        </div>
-      </div>
       <br><br>
-      <div class="row">
-        <div class="col-xl-2"></div>
-        <div class="col-xl-3">
-          <h6 class="work-name"><b>UBC JumpStart</b></h6>
-          <p class="duration">August, 2016 - September, 2016</p>
-        </div>
-        <div class="col-xl-4">
-          <h6>Orientation Leader</h6>
-          <ul>
-            <li>Lead a group of 23 incoming first year international students in a welcoming and friendly manner</li>
-            <li>Gave students advice and resources needed to maintain a GPA above 60% and fostered community</li>
-          </ul>
-        </div>
-      </div>
-      <br><br>
-      <div class="row">
-        <div class="col-xl-2"></div>
-        <div class="col-xl-3">
-          <h6 class="work-name"><b>RainKing Solutions</b></h6>
-          <p class="duration">March, 2015 - August, 2015</p>
-        </div>
-        <div class="col-xl-4">
-          <h6>Research Intern</h6>
-          <ul>
-            <li>Listened for names in voicemail messages and input their LinkedIn information quickly and accurately into a spreadsheet</li>
-            <li>Ranked as the 3rd fastest intern out of 30+ with an average rate of 25 entries per hour</li>
-          </ul>
-        </div>
-      </div>
-      <br><br>
-      <div class="row">
-        <div class="col-xl-2"></div>
-        <div class="col-xl-3">
-          <h6 class="work-name"><b>Mamma Lucia</b></h6>
-          <p class="duration">June, 2013 - March, 2015</p>
-        </div>
-        <div class="col-xl-4">
-          <h6>Delivery Driver/Bus Boy</h6>
-          <ul>
-            <li>Delivered food to customers in a friendly and efficient manner to ensure that their order arrived in less than 45 minutes</li>
-            <li>Maintained the cleanliness of the restaurant and enthusiastically served customers to ensure patrons had an enjoyable dining experience</li>
-          </ul>
-        </div>
-      </div>
-      <br><br>
-      <div class="row">
-        <div class="col-xl-2"></div>
-        <div class="col-xl-3">
-          <h6 class="work-name"><b>YMCA</b></h6>
-          <p class="duration">June, 2014 - August, 2014</p>
-        </div>
-        <div class="col-xl-4">
-          <h6>Aquatics Camp Counselor</h6>
-          <ul>
-            <li>Taught a group of 25 seven and eight year-old children how to swim in an effective manner while still keeping the class fun</li>
-            <li>Maintained a 90% satisfaction rating from parents</li>
-          </ul>
-        </div>
-      </div>
     </div>
     
     <div class="projects">
       <div class="row">
-        <div class="col-xl-12">
+        <div class="col-xl-2"></div>
+        <div class="col-xl-8">
           <br><br>
           <h2 class="projects-title projects-header">Projects</h2>
           <hr width="15%">
+          <!--Conside adding a row here for a projects blurb-->
+          <div class="row">
+            <div class="col-xl-12">
+              <h5>Alchemy</h5>
+              <p class="duration"><i>May, 2017 - Present</i></p>
+              <ul><!--Gotta write descriptions for alchemy stuff-->
+                <li>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <h5>Cereal Monitor</h5>
+              <p class="duration"><i>March, 2017 - April, 2017</i></p>
+              <ul><!--Gotta write descriptions for alchemy stuff-->
+                <li>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <h5>Internet Enabled Range Finder</h5>
+              <p class="duration"><i>February, 2017 - February, 2017</i></p>
+              <ul><!--Need to rewrite this description because it's oudated-->
+                <li>
+                  Developed a range finding circuit using an Arduino Uno with a sonar sensor and internet capabilities that Tweeted 
+                  alerts to the client when an object was detected within 1 meter
+                </li>
+                <li>
+                  Designed an intuitive GUI using Processing 3 that displayed distances with direction measured by the sonar sensor 
+                  using a simplified radar screen format
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <h5>Yelp Server</h5>
+              <p class="duration"><i>November, 2016 - December, 2016</i></p>
+              <ul><!--Need to rewrite this description because it's oudated-->
+                <li>
+                  Designed a multithreaded server application in Java that could handle multiple client requests to read and 
+                  write JSON formatted data to a Yelp database containing restaurant, user, and review information
+                </li>
+                <li>
+                  Implemented a database holding over 10,000 JSON objects containing restaurant, user, and review data that 
+                  allowed read operations for returning requested restaurant, user, and review information and write operations 
+                  for adding restaurants, users, and reviews to the database
+                </li>
+                <li>
+                  Developed a k-means clustering algorithm that grouped restaurants into clusters based on location and a 
+                  least squares regression algorithm that predicted the rating a user would give a specific restaurant based on activity
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <h5>Twitter Analyzer</h5>
+              <p class="duration"><i>October, 2016 - October, 2016</i></p>
+              <ul><!--Need to rewrite this description because it's oudated-->
+                <li>
+                  Designed a program in Java that analyzed a Twitter data set of over 100,000 entries to determine common followers among 
+                  users and the number of retweets for a user to show up on another’s feed
+                </li>
+                <li>
+                  Created adjacency list and adjacency matrix data types that implemented a graph interface to analyze the data set using 
+                  an unweighted directed graph
+                </li>
+                <li>
+                  Programmed algorithms that found common up and down stream vertices for any two vertices on the graph, performed breadth 
+                  and depth first searches, and found the shortest distance between any two vertices on the graph
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    
+    <div class="contact-information">
+      <div class="row">
+        <div class="col-xl-2"></div>
+        <div class="col-xl-8">
+          <br>
+          <h4 class="contact-text contact-header">Contact Me</h4> <!--Try this in the other colors too-->
+          <br>
+          <div class="row">
+            <div class="col-xl-6">
+              <a class="drangus" href="https://www.linkedin.com/in/cormac-mollitor/" target="_blank">
+          	    <span class="icon icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> www.linkedin.com/in/cormac-mollitor</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+    </div>
   </body>
 </html>
+
+<!---->

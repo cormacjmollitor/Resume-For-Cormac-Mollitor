@@ -111,6 +111,14 @@ div {
     color: #C0B283;
 }
 
+.job-name{
+    padding-left: 20px;
+}
+
+.job-title{
+    padding-right: 20px;
+}
+
 .projects{
     background-color: #DCD0C0;
 }
@@ -121,4 +129,16 @@ div {
 
 .projects-header{
     color: #373737;
+}
+
+.contact-information{
+    background-color: #373737;
+}
+
+.contact-text{
+    color: #C0B283;
+}
+
+.contact-header{
+    text-align: center;
 }
