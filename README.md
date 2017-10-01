@@ -1,1 +1,1 @@
-Online resume website for Cormac Mollitor. Visit cormacjmollitor.github.io.
+Online resume website for Cormac Mollitor. Visit <a href="cormacjmollitor.github.io">cormacjmollitor.github.io</a>
