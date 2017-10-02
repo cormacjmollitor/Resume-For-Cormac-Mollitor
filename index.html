@@ -28,7 +28,8 @@
   	  <div class="overlay overlay-first">
   	    <div class="container top-name">
       	  <h1 class="display-3 drangus">Cormac Mollitor</h1>
-      	  <p class="lead drangus">3rd Year Computer Engineering Student<br>Aspiring Web Developer<br>Avid Explorer</p><!--Think of a better lead-->
+      	  <p class="lead drangus">3rd Year Computer Engineering Student<br>Aspiring Web Developer<br></p><!--Think of a better lead-->
+  	      <br>
         </div>
   	  </div>
     </div>
@@ -53,7 +54,7 @@
          <h3 class="about-header">Profile</h3>
          <p class="body-text">I am a 3rd year Computer Engineering student at University of British Columbia with a strong interest machine learning and web development. 
          I am an avid problem-solver and love diving head-first into code to fix bugs and develop enhancements. Because I learn best when I am outside of my comfort zone, 
-         I enjoy tackling difficult problems and finding my own answers before asking others for help. With that being said, I am also an excellent team player and thrive off collaboration.
+         I enjoy tackling difficult problems and finding my own answers before asking others for help. With that being said, I am also an excellent team player and thrive in collaborative environments.
          I am currently working on learning analytics R&D for <a href="https://alchemy.elearning.ubc.ca/" target="_blank">Alchemy</a>, a prototype teaching tool, for the UBC Chemistry Department. </p>
         </div>
         <div class="col-xl-2 col-xs-2 about-column">
@@ -74,7 +75,11 @@
          <h3 class="about-header">Background</h3>
          <h5>Hometown:</h5>
          <ul>
-           <li>Rockville, MD</li>
+           <li>Rockville, MD, USA</li>
+         </ul>
+         <h5>Location:</h5>
+         <ul>
+           <li>Vancouver, BC, Canada</li>
          </ul>
          <h5>Citizenship:</h5>
          <ul>
@@ -95,6 +100,7 @@
          </ul>
         </div>
       </div>
+      <br><br>
     </div>
     
     <!--Make it so hovering over skill also makes it pop up a bit-->
@@ -128,6 +134,7 @@
         <div class="col-xl-8">
           <hr width="100%">
           <div class="row">
+          <div class="col-xl-1"></div>
           <div class="col-xl-4">
               <h3 class="skills-header">Web Frameworks</h3>
               <ul>
@@ -149,7 +156,7 @@
                <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">ARMv7</li>
               </ul>
           </div>
-          <div class="col-xl-5"><!--Might have to change this for symmetry reasons-->
+          <div class="col-xl-4"><!--Might have to change this for symmetry reasons-->
               <h3 class="skills-header">Other Technologies</h3>
               <ul>
                <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Git</li>
@@ -165,6 +172,7 @@
           </div>
         </div>
   	  </div>
+      <br><br>
     </div>
     
     <div class="work-experience">
@@ -182,22 +190,35 @@
             </div>
             <hr width="100%">
             <div class="row">
-              <div class="col-xl-6 job-name">
+              <div class="col-xl-4 job-name">
                 <h6 class="work-name"><b>UBC Department of Chemistry</b></h6>
                 <p class="duration"><i>May, 2017 - Present</i></p>
               </div>
-              <div class="col-xl-6 job-title">
+              <div class="col-xl-8 job-title">
                 <h6>Software Developer Co-op</h6>
-                <p></p><!--PUT DESCRIPTION HERE WITH LINES SEPERATED USING <br>-->
+                <ul>
+                  <li>
+                    Developed front-end and back-end bug fixes and enhancements as well as unit testing for Alchemy, a scenario-based learning tool, using 
+                    Ruby on Rails, AngularJS, HTML, CSS, and Bootstrap for development, Git for version control, and Docker for deployment
+                  </li>
+                  <li>
+                    Engaged in learning analytics R&D with a team of 4 software engineers to develop machine learning and data mining techniques, determine appropriate 
+                    technologies for our project, and design intuitive dashboards displaying learning analytics data to both students and instructors
+                  </li>
+                  <li>
+                    Participated in requirements gathering sessions with instructors, students, and TAs to gain insight on features and improvements that would make 
+                    Alchemy a useful and rewarding learning tool
+                  </li>
+                </ul>
               </div>
             </div>
           <br><br>
           <div class="row">
-            <div class="col-xl-6 job-name">
+            <div class="col-xl-4 job-name">
               <h6 class="work-name"><b>UBC JumpStart</b></h6>
               <p class="duration"><i>August, 2016 - September, 2016</i></p>
             </div>
-            <div class="col-xl-6 job-title">
+            <div class="col-xl-8 job-title">
               <h6>Orientation Leader</h6>
               <ul>
                 <li>Lead a group of 23 incoming first year international students in a welcoming and friendly manner</li>
@@ -207,11 +228,11 @@
           </div>
           <br><br>
           <div class="row">
-            <div class="col-xl-6 job-name">
+            <div class="col-xl-4 job-name">
               <h6 class="work-name"><b>RainKing Solutions</b></h6>
               <p class="duration"><i>March, 2015 - August, 2015</i></p>
             </div>
-            <div class="col-xl-6 job-title">
+            <div class="col-xl-8 job-title">
               <h6>Research Intern</h6>
               <ul>
                 <li>Listened for names in voicemail messages and input their LinkedIn information quickly and accurately into a spreadsheet</li>
@@ -219,6 +240,7 @@
               </ul>
             </div>
           </div>
+          <br><br>
         </div>
       <br><br>
     </div>
@@ -233,10 +255,16 @@
           <!--Conside adding a row here for a projects blurb-->
           <div class="row">
             <div class="col-xl-12">
-              <h5>Alchemy</h5>
-              <p class="duration"><i>May, 2017 - Present</i></p>
+              <h5>Online Interactive Personal Resume</h5>
+              <p class="duration"><i>September, 2017 - October, 2017</i></p>
               <ul><!--Gotta write descriptions for alchemy stuff-->
                 <li>
+                  Developed a one-page online interactive resume using HTML, JavaScript, CSS for the page text, styling, and effects and Bootstrap
+                  for the page layout
+                </li>
+                <li>
+                  Used the D3.js to add a proficiency level fillup element in the skill section that is activates when a user hovers their mouse
+                  over a skill
                 </li>
               </ul>
             </div>
@@ -247,6 +275,16 @@
               <p class="duration"><i>March, 2017 - April, 2017</i></p>
               <ul><!--Gotta write descriptions for alchemy stuff-->
                 <li>
+                  Designed an Internet of Things application with web and mobile GUIs that tracked a user's pantry items by weight 
+                  using an Arduino equipped with force-sensitive resistors and a Raspberry Pi as a server
+                </li>
+                <li>
+                  Created an intuitive web GUI using HTML, JavaScript, and CSS that showed users their consumption of each grocery
+                  and alerted them when they were running low on specific items
+                </li>
+                <li>
+                  Used the Google Charts API to create a real-time line graph that showed the level of individual groceries over a 
+                  ten day period
                 </li>
               </ul>
             </div>
@@ -308,6 +346,7 @@
               </ul>
             </div>
           </div>
+          <br><br>
         </div>
       </div>
     </div>
@@ -317,29 +356,53 @@
         <div class="col-xl-2"></div>
         <div class="col-xl-8" style="text-align: center">
           <br>
-          <h1 class="contact-text contact-header">Want to Get in Touch?</h1> <!--Try this in the other colors too-->
-          <hr width="20%" style="color: white"><!--Add this styling to the stylesheet-->
+          <h1 class="contact-text contact-header">Contact Me</h1> <!--Try this in the other colors too-->
+          <hr width="25%" class="contact-hr">
           <br>
-          <a class="drangus" href="https://www.linkedin.com/in/cormac-mollitor/" target="_blank">
-      	    <span class="icon icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> www.linkedin.com/in/cormac-mollitor</span>
-          </a>
-          <br><br>
-          <a class="drangus" href="https://github.com/cormacjmollitor" target="_blank">
-            <span class="icon icon-github"><i class="fa fa-github" aria-hidden="true"></i > https://github.com/cormacjmollitor</span>
-          </a>
-          <br><br>
-          <a class="drangus" href="https://github.com/cormacjmollitor/cormacjmollitor.github.io" target="_blank">
-            <span class="icon icon-code"><i class="fa fa-code" aria-hidden="true"></i> View Page Source</span>
-          </a>
-          <br><br>
-          <a class="drangus" href="mailto:cormac.mollitor.97@gmail.com" target="_blank">
-            <span class="icon icon-email"><i class="fa fa-envelope-o" aria-hidden="true"></i> cormac.mollitor.97@gmail.com</span>
-          </a>
-          <a class="drangus" href=""></a><!--Add resume link here-->
+          <div class="row">
+            <div class="col-xl-6"><!--Social media-->
+              <ul style="list-style-type: none">
+                <li>
+                  <a class="contact-text pull-left" href="https://www.linkedin.com/in/cormac-mollitor/" target="_blank">
+              	    <span class="icon icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> www.linkedin.com/in/cormac-mollitor</span>
+                  </a>
+                </li>
+                <br><br>
+                <li>
+                  <a class="contact-text pull-left" href="https://github.com/cormacjmollitor" target="_blank">
+                    <span class="icon icon-github"><i class="fa fa-github" aria-hidden="true"></i > https://github.com/cormacjmollitor</span>
+                  </a>
+                </li>
+              </ul>
             </div>
+            <div class="col-xl-1"></div>
+            <div class="col-xl-4">
+              <ul style="list-style-type: none">
+                <li>
+                  <a class="contact-text pull-left" href="mailto:cormac.mollitor.97@gmail.com" target="_blank">
+                    <span class="icon icon-email"><i class="fa fa-envelope-o" aria-hidden="true"></i> cormac.mollitor.97@gmail.com</span>
+                  </a>
+                </li>
+                <br><br>
+                <li><!--Resume will go here-->
+                  <a class="contact-text pull-left" href="" target="_blank">
+                    <span class="icon icon"><i class="fa fa-file-text-o" aria-hidden="true"></i> Download My Resume</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <br>
+          <div class="row">
+            <div class="col-xl-12">
+              <a class="contact-text" href="https://github.com/cormacjmollitor/cormacjmollitor.github.io" target="_blank" style="text-align: center">
+                <span class="icon icon-code"><i class="fa fa-code" aria-hidden="true"></i> View Page Source</span>
+              </a>  
+            </div>
+          </div>
+          <br><br>
+        </div>
       </div>
-      <br><br><br><br>
     </div>
   </body>
 </html>
