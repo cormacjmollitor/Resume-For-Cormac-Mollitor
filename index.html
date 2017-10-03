@@ -50,14 +50,14 @@
       <hr width="75%" style="margin-bottom: 25px">
       <div class="row">
         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div> <!--Bootstrap 4.0 Beta 2.0 will introduce offset again-->
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 about-column">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 about-column" style="min-width: 340px">
          <h3 class="about-header">Profile</h3>
-         <p class="body-text">I am a 3rd year Computer Engineering student at University of British Columbia with a strong interest machine learning and web development. 
+         <span><p class="body-text">I am a 3rd year Computer Engineering student at University of British Columbia with a strong interest machine learning and web development. 
          I am an avid problem-solver and love diving head-first into code to fix bugs and develop enhancements. Because I learn best when I am outside of my comfort zone, 
          I enjoy tackling difficult problems and finding my own answers before asking others for help. With that being said, I am also an excellent team player and thrive in collaborative environments.
-         I am currently working on learning analytics R&D for <a href="https://alchemy.elearning.ubc.ca/" target="_blank">Alchemy</a>, a prototype teaching tool, for the UBC Chemistry Department. </p>
+         I am currently working on learning analytics R&D for <a href="https://alchemy.elearning.ubc.ca/" target="_blank">Alchemy</a>, a prototype teaching tool, for the UBC Chemistry Department. </p></span>
         </div>
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 about-column">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 about-column" style="min-width: 240px">
          <h3 class="about-header">Hobbies</h3>
          <ul>
            <li>Hiking</li>
@@ -71,7 +71,7 @@
            <li>PC Gaming</li>
          </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 about-column">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 about-column" style="min-width: 340px">
          <h3 class="about-header">Background</h3>
          <h5>Hometown:</h5>
          <ul>
@@ -188,7 +188,7 @@
                 <p class="blurb">I will be available for new work starting on May 1, 2018</p>
               </div>
             </div>
-            <hr width="100%">
+            <hr width="100%" style="margin-bottom: 25px">
             <div class="row">
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 job-name">
                 <h6 class="work-name"><b>UBC Department of Chemistry</b></h6>
@@ -251,13 +251,19 @@
         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
           <br><br>
           <h1 class="projects-title projects-header">Projects</h1>
-          <hr width="15%">
+          <hr width="15%" style="margin-bottom: 25px">
           <!--Conside adding a row here for a projects blurb-->
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <p class="blurb">I've worked on a wide range of projects from web applications to embedded systems</p>
+            </div>
+            <hr width="100%" style="margin-bottom: 25px">
+          </div>
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h5>Online Interactive Personal Resume</h5>
               <p class="duration"><i>September, 2017 - October, 2017</i></p>
-              <ul><!--Gotta write descriptions for alchemy stuff-->
+              <ul>
                 <li>
                   Developed a one-page online interactive resume using HTML, JavaScript, CSS for the page text, styling, and effects and Bootstrap
                   for the page layout
@@ -269,6 +275,7 @@
               </ul>
             </div>
           </div>
+          <br>
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h5>Cereal Monitor</h5>
@@ -289,6 +296,7 @@
               </ul>
             </div>
           </div>
+          <br>
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h5>Internet Enabled Range Finder</h5>
@@ -305,11 +313,12 @@
               </ul>
             </div>
           </div>
+          <br>
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h5>Yelp Server</h5>
               <p class="duration"><i>November, 2016 - December, 2016</i></p>
-              <ul><!--Need to rewrite this description because it's oudated-->
+              <ul>
                 <li>
                   Designed a multithreaded server application in Java that could handle multiple client requests to read and 
                   write JSON formatted data to a Yelp database containing restaurant, user, and review information
@@ -326,6 +335,7 @@
               </ul>
             </div>
           </div>
+          <br>
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h5>Twitter Analyzer</h5>
@@ -360,7 +370,7 @@
           <hr width="25%" class="contact-hr">
           <br>
           <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6"><!--Social media-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" style="min-width: 375px">
               <ul style="list-style-type: none">
                 <li>
                   <a class="contact-text pull-left" href="https://www.linkedin.com/in/cormac-mollitor/" target="_blank">
@@ -376,11 +386,11 @@
               </ul>
             </div>
             <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4" style="min-width: 325px">
               <ul style="list-style-type: none">
                 <li>
-                  <a class="contact-text pull-left" href="mailto:cormac.mollitor.97@gmail.com" target="_blank">
-                    <span class="icon icon-email"><i class="fa fa-envelope-o" aria-hidden="true"></i> cormac.mollitor.97@gmail.com</span>
+                  <a class="contact-text pull-left" href="mailto:cormac.mollitor.97@gmail.com" target="_blank" style="min-width: 254px">
+                    <span class="icon icon-email" style="min-width: 254px"><i class="fa fa-envelope-o" aria-hidden="true"></i> cormac.mollitor.97@gmail.com</span>
                   </a>
                 </li>
                 <br><br>

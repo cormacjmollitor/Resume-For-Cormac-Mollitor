@@ -59,6 +59,7 @@ div {
 }
 
 .about-column{
+    display: inline-block;
     margin-left: 5px;
 }
 
