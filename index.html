@@ -24,6 +24,8 @@
   </head>
   
   <body>
+    <div class="container-fluid">
+    <div class="row">
     <div class="jumbotron jumbo">
   	  <div class="overlay overlay-first">
   	    <div class="container top-name">
@@ -33,8 +35,10 @@
         </div>
   	  </div>
     </div>
+    </div>
+    </div>
     
-    <div class="about">
+    <div class="container-fluid about">
       <div class="row">
         <div class="col-xl-12">
           <br><br>
@@ -104,21 +108,13 @@
     </div>
     
     <!--Make it so hovering over skill also makes it pop up a bit-->
-    <div class="skills">
-  	  <div class="row">
-  	    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-	        <br><br>
-	        <h1 class="skills-title skills-header">Skills</h1>
-	        <hr width="15%" style="margin-bottom: 25px">
-	        <p class="blurb" style="margin-bottom: 25px">I am a quick learner who loves learning new technologies.<br>
-	        Hover over a skill to view my proficiency.</p>
-  	    </div>
-  	  </div>
-  	  <div class="row">
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
-          <br><br><br><br><br><br><br><br>
-          <h5 class="proficiency-level">Proficiency Level</h5>
-          <svg id="fillgauge" width="80%" height="200"></svg>
+    <div class="skills container-fluid">
+      <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12">
+          <!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>-->
+          <br><br>
+          <h5 class="proficiency-level" style="min-width: 151px">Proficiency Level</h5>
+          <svg id="fillgauge" height="200" width="168" style="min-width: 168px"></svg>
           <script language="JavaScript">
               var config1 = liquidFillGaugeDefaultSettings();
               config1.circleColor = "#C0B283";
@@ -131,32 +127,42 @@
               var gauge2= loadLiquidFillGauge("fillgauge", 0, config1);
           </script>
         </div>
-        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
-          <hr width="100%">
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
           <div class="row">
-          <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <br><br>
+    	        <h1 class="skills-title skills-header">Skills</h1>
+    	        <hr width="15%" style="margin-bottom: 25px">
+    	        <p class="blurb" style="margin-bottom: 25px">I am a quick learner who loves learning new technologies.<br>
+    	        Hover over a skill to view my proficiency.</p>
+            </div>
+          </div>
+          <div class="row">
+            <hr width="100%">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
               <h3 class="skills-header">Web Frameworks</h3>
               <ul>
                <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby on Rails</li>
                <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">AngularJS</li>
                <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">Bootstrap</li>
               </ul>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-              <h3 class="skills-header">Languages</h3>
-              <ul>
-               <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Java</li>
-               <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby</li>
-               <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">C/C++</li>
-               <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">JavaScript</li>
-               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">HTML</li>
-               <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">CSS</li>
-               <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">x86</li>
-               <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">ARMv7</li>
-              </ul>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"><!--Might have to change this for symmetry reasons-->
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                <h3 class="skills-header">Languages</h3>
+                <ul>
+                 <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Java</li>
+                 <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Ruby</li>
+                 <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">C/C++</li>
+                 <li onmouseover="gauge2.update(60);" onmouseout="gauge2.update(0)">JavaScript</li>
+                 <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">HTML</li>
+                 <li onmouseover="gauge2.update(40);" onmouseout="gauge2.update(0)">CSS</li>
+                 <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">x86</li>
+                 <li onmouseover="gauge2.update(20);" onmouseout="gauge2.update(0)">ARMv7</li>
+                </ul>
+            </div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12"><!--Might have to change this for symmetry reasons-->
               <h3 class="skills-header">Other Technologies</h3>
               <ul>
                <li onmouseover="gauge2.update(80);" onmouseout="gauge2.update(0)">Git</li>
@@ -171,11 +177,12 @@
           </div>
           </div>
         </div>
-  	  </div>
+        <div class="col-xl-2 col-lg-2 col-md-0 col-sm-0 col-xs-0"></div>
+      </div>
       <br><br>
     </div>
     
-    <div class="work-experience">
+    <div class="work-experience container-fluid">
         <div class="row">
           <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
           <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
@@ -242,10 +249,11 @@
           </div>
           <br><br>
         </div>
+        </div>
       <br><br>
     </div>
     
-    <div class="projects">
+    <div class="projects container-fluid">
       <div class="row">
         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
@@ -362,13 +370,31 @@
     
     <div class="contact-information">
       <div class="row">
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8" style="text-align: center">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4" style="text-align: center">
           <br>
           <h1 class="contact-text contact-header">Contact Me</h1> <!--Try this in the other colors too-->
           <hr width="25%" class="contact-hr">
           <br>
-          <div class="row">
+          <a class="contact-text" href="https://www.linkedin.com/in/cormac-mollitor/" target="_blank">
+      	    <span class="icon icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i>www.linkedin.com/in/cormac-mollitor</span>
+          </a>
+          <br>
+          <br>
+          <a class="contact-text" href="https://github.com/cormacjmollitor" target="_blank">
+            <span class="icon icon-github"><i class="fa fa-github" aria-hidden="true"></i>https://github.com/cormacjmollitor</span>
+          </a>
+          <br>
+          <br>
+          <a class="contact-text" href="assets/Cormac-Mollitor-Resume.pdf" target="_blank">
+            <span class="icon icon"><i class="fa fa-file-text-o" aria-hidden="true"></i>Download My Resume</span>
+          </a>
+          <br>
+          <br>
+          <a class="contact-text" href="https://github.com/cormacjmollitor/cormacjmollitor.github.io" target="_blank">
+            <span class="icon icon-code"><i class="fa fa-code" aria-hidden="true"></i>View Page Source</span>
+          </a>
+          <!--<div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" style="min-width: 375px">
               <ul style="list-style-type: none">
                 <li>
@@ -385,7 +411,7 @@
               </ul>
             </div>
             <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4" style="min-width: 325px">
+            <!--<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4" style="min-width: 325px">
               <ul style="list-style-type: none">
                 <li>
                   <a class="contact-text pull-left" href="mailto:cormac.mollitor.97@gmail.com" target="_blank" style="min-width: 254px">
@@ -394,21 +420,21 @@
                 </li>
                 <br><br>
                 <li><!--Resume will go here-->
-                  <a class="contact-text pull-left" href="assets/Cormac-Mollitor-Resume.pdf" target="_blank">
+                  <!--<a class="contact-text pull-left" href="assets/Cormac-Mollitor-Resume.pdf" target="_blank">
                     <span class="icon icon"><i class="fa fa-file-text-o" aria-hidden="true"></i> Download My Resume</span>
                   </a>
                 </li>
               </ul>
             </div>
-          </div>
-          <br>
+          </div>-->
+          <!--<br>
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <a class="contact-text" href="https://github.com/cormacjmollitor/cormacjmollitor.github.io" target="_blank" style="text-align: center">
                 <span class="icon icon-code"><i class="fa fa-code" aria-hidden="true"></i> View Page Source</span>
               </a>  
             </div>
-          </div>
+          </div>-->
           <br><br>
         </div>
       </div>

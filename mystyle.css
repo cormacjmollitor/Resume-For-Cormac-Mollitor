@@ -1,3 +1,9 @@
+@media (max-width: 1124px) {
+    skills-title{
+        text-align: left;
+    }
+}
+
 div {
     padding-top: 0px;
 }
@@ -139,6 +145,7 @@ div {
 
 .contact-text{
     color: #C0B283;
+    text-align: center;
 }
 
 .contact-header{
